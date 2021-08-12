@@ -7,20 +7,20 @@ Der Workflow für den Betrieb des Servers sieht wie folgt aus:
 - Damit ist der SDU-Server betriebsbereit.
 
 ## Server starten
-1) Docker-Compose Datei anlegen:  
+1) In einem Arbeitsverzeichnis Docker-Compose Datei anlegen:  
 	`docker-compose.yml`:
 	``` yaml
 	version: '2.1'
 	services:
-	sdu-server:
-		image: ssvembeddedde/ssv-sdu-server:1.0.1
-		container_name: sdu-server
-		volumes:
-		- ./data:/opt/sdu-server/data
-		ports:
-		- 9080:9080/tcp
-		- 443:443/tcp
-		restart: always
+		sdu-server:
+			image: ssvembeddedde/ssv-sdu-server:1.0.1
+			container_name: sdu-server
+			volumes:
+				- ./data:/opt/sdu-server/data
+			ports:
+				- 9080:9080/tcp
+				- 443:443/tcp
+			restart: always
 	```
 2) SDU-Server starten:
 	``` bash

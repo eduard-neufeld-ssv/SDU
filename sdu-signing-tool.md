@@ -1,6 +1,6 @@
 # SDU Signing Tool
 
-Ist ein Windows Tool zum verpacken und signieren der Firmware in einen SDU-Archive mit der Endung `*.sdu`. Dieses Archive wird von dem [SDU Maintainer Tool](sdu-maintaner-tool.md) benutzt.
+Ist ein Windows Tool zum verpacken und signieren der Firmware zu einem SDU-Archive mit der Endung `*.sdu`. Dieses Archive kann von dem [SDU Maintainer Tool](sdu-maintaner-tool.md) auf den SDU-Server geladen werden.
 
 ## Benutzung
 ### Installation
@@ -15,6 +15,6 @@ Ist ein Windows Tool zum verpacken und signieren der Firmware in einen SDU-Archi
 
 ### SDU-Archive erstellen
 - Produkt auswählen.
-- Version vergeben, optional ein Kommentar vergeben.
+- Version und optional ein Kommentar vergeben.
 - Firmware Datei in das Archive hinzufügen mit **Add File**.
 - Archive erstellen und signieren mit **Create & Sign**.
