@@ -1,5 +1,5 @@
 #### Topics
-* [Introduction](#sdu-server-api-v210)
+[Introduction](#sdu-server-api-v210)
 
 
 [Maintainer](#maintainer)
