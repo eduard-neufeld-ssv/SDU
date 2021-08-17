@@ -1,3 +1,46 @@
+#### Topics
+* [Introduction](#sdu-server-api-v210)
+#### Operations
+
+* [Maintainer](#maintainer)
+* [Get a list of present BLOBs](#get-a-list-of-present-blobs)
+* [Get info about existing BLOB](#get-info-about-existing-blob)
+* [Upload a new BLOB](#upload-a-new-blob)
+* [Delete an existing BLOB](#delete-an-existing-blob)
+* [Get the delta between a known BLOB and a desired BLOB](#get-the-delta-between-a-known-blob-and-a-desired-blob)
+* [Download the version&#x27;s manifest](#download-the-versions-manifest)
+* [Upload the version&#x27;s manifest](#upload-the-versions-manifest)
+
+#### Devices
+* [Download an existing BLOB](#download-an-existing-blob)
+* [Get the current version](#get-the-current-version)
+
+#### Manager
+* [Get a list of all products](#get-a-list-of-all-products)
+* [Get the current version assignment](#get-the-current-version-assignment)
+* [Append a version assignment](#append-a-version-assignment)
+* [Insert a version assignment before the given assignment](#insert-a-version-assignment-before-the-given-assignment)
+* [Remove the given assignment](#remove-the-given-assignment)
+* [Modify the given assignment](#modify-the-given-assignment)
+* [Get a list of all existing versions for a product](#get-a-list-of-all-existing-versions-for-a-product)
+* [Get information about a version](#get-information-about-a-version)
+* [Mark the version as available or unavailable](#mark-the-version-as-available-or-unavailable)
+
+#### Schema Definitions
+* [Error](#error)
+* [Success](#success)
+* [Blob](#blob)
+* [BlobList](#bloblist) 
+* [BlobInfo](#blobinfo)
+* [ProductList](#productlist)
+* [Version](#version)
+* [VersionInfo](#versioninfo)
+* [VersionList](#versionlist)
+* [VersionEdit](#versionedit)
+* [CurrentVersion](#currentversion)
+* [CurrentVersionAssignmentList](#currentversionassignmentlist)
+* [CurrentVersionAssignment](#currentversionassignment)
+
 <!-- Generator: Widdershins v4.0.1 -->
 
 <h1 id="sdu-server-api">SDU Server API v2.1.0</h1>
