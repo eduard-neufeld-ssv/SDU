@@ -1,12 +1,12 @@
 # Secure Device Update (SDU)
 
-Betrachtet man eine typische Steuerungslösung in der Automatisierung aus dem Blickwinkel der IT-Sicherheit, müssten eigentlich sehr viele Lösungen sofort stillgelegt werden. Hauptgrund sind in der Regel fehlende Möglichkeiten für Software-Updates. In den meisten Fällen existieren noch nicht einmal Patches, obwohl einige Steuerungen seit langem bekannte Schwachstellen besitzen.
+If you look at a typical control solution in automation from the perspective of IT security, many solutions would actually have to be shut down immediately. The main reason is usually the lack of possibilities for software updates. In most cases patches do not even exist although some controllers have long known weaknesses.
 
 ![SDU](img/rmg941_schema_sdu_en.png)
 
-Secure Device Updates (SDU) lösen diese Probleme und bieten darüber hinaus die Möglichkeit, neue Funktionen an die Anwender zu verteilen. Soll eine Komponente, Maschine oder Anlage über eine IoT-Anbindung mit Software- und Konfigurations-Updates versorgt werden, muss neben der Anlagen- vor allen Dingen auch die IT-Sicherheit beachtet werden.
+Secure Device Updates (SDU) solve these problems and also offer the possibility to distribute new functions to the users. If a component, machine or system is to be supplied with software and configuration updates via an IoT connection, IT security must be taken into account in addition to system security.
 
-Beim aktuellen Stand der Technik erfordert dies eine Public-Key-Infrastruktur (PKI) für digitale Signaturen mit privaten und öffentlichen Schlüsseln, Zertifikaten, Sperrlisten usw., um zumindest die Authentizität und Integrität des Updates zu gewährleisten. Alle dafür erforderlichen Bausteine sind in SDU enthalten.
+With the current state of the art, this requires a public key infrastructure (PKI) for digital signatures with private and public keys, certificates, revocation lists, etc., to at least guarantee the authenticity and integrity of the update. All necessary components are included in SDU.
 
 ![SDU](img/update.png)
 
