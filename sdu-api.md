@@ -1,8 +1,8 @@
 #### Topics
 * [Introduction](#sdu-server-api-v210)
-#### Operations
 
-* [Maintainer](#maintainer)
+
+[Maintainer](#maintainer)
 * [Get a list of present BLOBs](#get-a-list-of-present-blobs)
 * [Get info about existing BLOB](#get-info-about-existing-blob)
 * [Upload a new BLOB](#upload-a-new-blob)
@@ -11,11 +11,11 @@
 * [Download the version&#x27;s manifest](#download-the-versions-manifest)
 * [Upload the version&#x27;s manifest](#upload-the-versions-manifest)
 
-#### Devices
+[Devices](#devices)
 * [Download an existing BLOB](#download-an-existing-blob)
 * [Get the current version](#get-the-current-version)
 
-#### Manager
+[Manager](#manager)
 * [Get a list of all products](#get-a-list-of-all-products)
 * [Get the current version assignment](#get-the-current-version-assignment)
 * [Append a version assignment](#append-a-version-assignment)
@@ -26,7 +26,7 @@
 * [Get information about a version](#get-information-about-a-version)
 * [Mark the version as available or unavailable](#mark-the-version-as-available-or-unavailable)
 
-#### Schema Definitions
+[Schema Definitions](#schemas)
 * [Error](#error)
 * [Success](#success)
 * [Blob](#blob)
