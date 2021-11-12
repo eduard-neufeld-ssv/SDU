@@ -7,7 +7,7 @@ Beispiele mit Bash, Openssl und Curl.
 * Voraussetzung:
 	- Firmware BLOB Datei welche hochgeladen werden soll: `myfirmware.tar`
 	- Maintainer Key zum signieren und hochladen: `mykey.pfx`
-	- SDU-Server CA Zertifikat zum hochladen: [ssv-server-pki.crt.pem](https://github.com/eduard-neufeld-ssv/SDU/ssv-server-pki.crt.pem)
+	- SDU-Server CA Zertifikat zum hochladen: [ssv-server-pki.crt.pem](ssv-server-pki.crt.pem)
 	- SDU-Server Adresse: `https://ssvdev-sdu0.ssv-service.de`
 
 Key und Zertifikat wird vorher aus PFX extrahiert da OpenSSL nicht mit PFX signieren kann.
