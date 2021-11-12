@@ -1,6 +1,6 @@
 # SDU Maintainer Tool
 
-Ist ein Windows Tool zum hochladen und verwalten der Firmware auf dem SDU-Server. Das Tool bedient sich der [REST API](sdu-api.md). Ebenso ist es möglich [SDU-Archiv](sdu-signing-tool.md) Dateien (Signierte Firmware) auf den SDU-Server zu laden.
+Ist ein Windows Tool zum hochladen der Software ([SDU-Archive](sdu-signing-tool.md)) auf den SDU-Server und zur Verwaltung/Verteilung dieser. Das Tool bedient sich der [REST API](sdu-api.md).
 
 ## Benutzung
 ### Installation
@@ -22,7 +22,7 @@ Ist ein Windows Tool zum hochladen und verwalten der Firmware auf dem SDU-Server
 		]
 	}
 	```
-	- `name`: Produkt Name
+	- `name`: Produkt Name nach JavaScript [Kodierungskonventionen](https://de.wikipedia.org/wiki/Namenskonvention_(Datenverarbeitung))
 	- `text`: In den Tools angezeigter Produkt name. Frei definierbar.
 	- `dataType`: Art wie das Firmware Archiv zusammengepackt werden soll. Muss von der Gegenstelle, dem [SDU-Agenten](sdu-agent.md), unterstützt sein. Hier gibt es zwei Möglichkeiten:
 		- `raw`: wenn die Firmware aus einer Datei besteht kann diese roh transportiert werden.

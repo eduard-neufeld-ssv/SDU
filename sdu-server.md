@@ -1,6 +1,6 @@
 # SDU Server
 
-Secure Device Update Server verwaltet und stellt Firmware für die zu aktualisierende Geräte bereit. Der SDU-Server wird über eine [REST API](sdu-api.md) bedient und steht als ein Docker Image zu verfügung.
+Secure Device Update Server verwaltet und stellt Firmware für die zu aktualisierende Geräte bereit. Der SDU-Server wird über eine [REST API](sdu-api.md) bedient und steht als ein Docker Image zu Verfügung.
 Der Workflow für den Betrieb des Servers sieht wie folgt aus:
 - SDU-Server Docker auf einem Host starten. Der Host muss eine gültige FQDN besitzen.
 - SSV den FQDN des Hosts mitteilen. SSV stellt eine Lizenz aus und spielt diese in den Server. Ebenso werden Schlüssel erstellt für den Zugriff auf den Server.
