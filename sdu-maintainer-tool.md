@@ -1,6 +1,6 @@
 # SDU Maintainer Tool
 
-Ist ein Windows Tool zum hochladen der Software ([SDU-Archive](sdu-signing-tool.md)) auf den SDU-Server und zur Verwaltung/Verteilung dieser. Das Tool bedient sich der [REST API](sdu-api.md).
+Ist ein Windows Tool zum hochladen der Software ([SDU-Archive](sdu-signing-tool.md)) auf den SDU-Server und zur Verwaltung/Verteilung dieser. Das Tool bedient sich der [REST API](https://github.com/SSV-embedded/SDU-API).
 
 ## Benutzung
 ### Installation

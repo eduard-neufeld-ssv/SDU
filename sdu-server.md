@@ -1,6 +1,6 @@
 # SDU Server
 
-Secure Device Update Server verwaltet und stellt Firmware für die zu aktualisierende Geräte bereit. Der SDU-Server wird über eine [REST API](sdu-api.md) bedient und steht als ein Docker Image zu Verfügung.
+Secure Device Update Server verwaltet und stellt Firmware für die zu aktualisierende Geräte bereit. Der SDU-Server wird über eine [REST API](https://github.com/SSV-embedded/SDU-API) bedient und steht als ein Docker Image bei DockerHub (https://hub.docker.com/r/ssvembeddedde/ssv-sdu-server/) zu Verfügung.
 Der Workflow für den Betrieb des Servers sieht wie folgt aus:
 - SDU-Server Docker auf einem Host starten. Der Host muss eine gültige FQDN besitzen.
 - SSV den FQDN des Hosts mitteilen. SSV stellt eine Lizenz aus und spielt diese in den Server. Ebenso werden Schlüssel erstellt für den Zugriff auf den Server.
@@ -13,7 +13,7 @@ Der Workflow für den Betrieb des Servers sieht wie folgt aus:
 	version: '2.1'
 	services:
 		sdu-server:
-			image: ssvembeddedde/ssv-sdu-server:1.0.1
+			image: ssvembeddedde/ssv-sdu-server:1.0.2
 			container_name: sdu-server
 			volumes:
 				- ./data:/opt/sdu-server/data
@@ -30,5 +30,5 @@ Der Workflow für den Betrieb des Servers sieht wie folgt aus:
 	``` json
 	{"version":1,"error":"Endpoint does not exist"}
 	```
-3) Email mit der Bitte um aktivierung und der FQDN an SSV senden.  
+3) Email mit der Bitte um Aktivierung und der FQDN an SSV senden.  
 [support@ssv-embedded.de](mailto:support@ssv-embedded.de)

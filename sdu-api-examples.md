@@ -3,7 +3,7 @@
 Beispiele mit Bash, Openssl und Curl.
 * Informationen:
 	- [SDU Manifest Datei](sdu-manifest.md) 
-	- [SDU REST API](sdu-api.md)
+	- [SDU REST API](https://github.com/SSV-embedded/SDU-API)
 * Voraussetzung:
 	- Firmware BLOB Datei welche hochgeladen werden soll: `myfirmware.tar`
 	- Maintainer Key zum signieren und hochladen: `mykey.pfx`
