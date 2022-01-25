@@ -10,7 +10,7 @@ Beim aktuellen Stand der Technik erfordert dies eine Public-Key-Infrastruktur (P
 
 ![SDU](img/update.png)
 
-- [SDU Server](sdu-server.md): Hostet und verteilt Software über eine [SDU REST API](sdu-api.md)
+- [SDU Server](sdu-server.md): Hostet und verteilt Software über eine [SDU REST API](https://github.com/SSV-embedded/SDU-API)
 
 - [SDU Signing Tool](sdu-signing-tool.md): Signiert Software und verpackt diese zu einem SDU-Archive mit Metadaten.
 
