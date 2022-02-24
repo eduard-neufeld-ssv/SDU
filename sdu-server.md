@@ -17,15 +17,15 @@ Docker-Compose Konfiguration `docker-compose.yml` mit folgendem Inhalt anlegen:
 ```yml
 version: '2.1'
 services:
-	sdu-server:
-		image: ssvembeddedde/ssv-sdu-server:1.0.2
-		container_name: sdu-server
-		volumes:
-			- ./data:/opt/sdu-server/data
-		ports:
-			- 9080:9080/tcp
-			- 443:443/tcp
-		restart: always
+  sdu-server:
+    image: ssvembeddedde/ssv-sdu-server:1.0.2
+    container_name: sdu-server
+    volumes:
+      - ./data:/opt/sdu-server/data
+    ports:
+      - 9080:9080/tcp
+      - 443:443/tcp
+    restart: always
 ```
 - image: `ssvembeddedde/ssv-sdu-server:<version>`, die letzte verfügbare Version wählen
 - volumes: `<lokales verzeichnis>:/opt/sdu-server/data`
@@ -36,6 +36,11 @@ services:
 ### 2. SDU-Server starten:
 ```bash
 docker-compose up -d
+```
+Nach dem starten wird in dem Datenverzeichnis eine `events` Datenbank und `license` Key erstellt.
+```bash
+ls data/
+events  license
 ```
 Um zu testen ob der Server im internet erreichbar ist im Browser die URL `http://<FQDN>:9080/` aufrufen. Die Anfrage wird beantwortet mit:
 ```json
