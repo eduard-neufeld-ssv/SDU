@@ -46,3 +46,14 @@ Um zu testen ob der Server im internet erreichbar ist im Browser die URL `http:/
 ```json
 {"version":1,"error":"Endpoint does not exist"}
 ```
+
+### 3. Initialer upload
+Damit das Herunterladen mit Blob diff funktioniert muss initial ein NULL Blob hochgeladen werden gegen welchen die diffs erstellt werden.
+Beispiel mit curl, benötigt werden die Maintaner key und crt Dateien:
+```
+CERT=<maintainer.crt.pem>
+KEY=<maintainer.key.pem>
+SERVER=<FQDN>
+touch zero
+curl -s -X POST --cacert ssv-server-pki.crt.pem --cert $CERT --key $KEY --data-binary @zero "https://$SERVER/v2/blob/$(sha256sum zero | cut -d' ' -f1)"
+```
