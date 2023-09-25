@@ -14,7 +14,7 @@ Beim aktuellen Stand der Technik erfordert dies eine Public-Key-Infrastruktur (P
 
 - [SDU Signing Tool](sdu-signing-tool.md): Signiert Software und verpackt diese zu einem SDU-Archive mit Metadaten.
 
-- [SDU Maintainer Tool](sdu-maintainer-tool.md): Hochladen der SDU Archive auf den Server und verwalten der Versionsverteilung.
+- [SDU Management Tool](sdu-maintainer-tool.md): Hochladen der SDU Archive auf den Server und verwalten der Versionsverteilung.
 
 - [SDU GUC](sdu-guc.md): Gateway Update Client (GUC) ist ein Dienst auf dem SSV RMG (Remote Maintenance Gateway) welcher die zugewiesene Software vom Server herunterlädt die Signatur überprüft und die Software an den [SDU Agenten](sdu-agent.md) übergibt.
 
