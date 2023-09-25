@@ -4,8 +4,8 @@ Ist ein Windows Tool zum verpacken und signieren der Firmware zu einem SDU-Archi
 
 ## Benutzung
 ### Installation
-- Tool herunterladen und entpacken. [SDU Signing Tool-3.0.0-win.zip](https://hidrive.ionos.com/lnk/EwUjOrRm)
-- Die Anwendung `SDU Signing Tool.exe` starten
+- Tool herunterladen und installieren. [SDU Signing Tool Setup 4.0.0.exe](https://hidrive.ionos.com/lnk/PCCMAfa5)
+- Die Anwendung `SDU Signing Tool` starten
 
 ### Konfiguration
 ![SDU Signing Tool](img/sdu-signing-tool.png)
