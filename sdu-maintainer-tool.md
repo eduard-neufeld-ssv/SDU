@@ -4,7 +4,7 @@ Ist ein Windows Tool zum hochladen der Software ([SDU-Archive](sdu-signing-tool.
 
 ## Benutzung
 ### Installation
-- Tool herunterladen und installieren. [SDU Management Tool Setup 4.0.0.exe](https://hidrive.ionos.com/lnk/VYiMgIBD)
+- Tool herunterladen und installieren. [SDU Management Tool Setup 4.0.1.exe](https://hidrive.ionos.com/lnk/STgNNX7qn)
 - Die Anwendung `SDU Management Tool` starten
 ### Konfiguration
 - Produktliste erstellen. Beispiel Datei mit einem Produkt:  
